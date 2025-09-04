@@ -71,28 +71,28 @@ const App = () => {
           />         
         </div>
 
-         <div className="">
+         <div className="grid grid-cols-4 gap-3 mb-6">
           <button
             onClick={() => calcular('+')}
-            className=""
+            className="p-4 text-2xl font-bold bg-blue-500 text-white rounded-lg shadow-md transform hover:scale-105 active:scale-95"
           >
             +
           </button>
           <button
             onClick={() => calcular('-')}
-            className=""
+            className="p-4 text-2xl font-bold bg-blue-500 text-white rounded-lg shadow-md transform hover:scale-105 active:scale-95"
           >
             -
           </button>
           <button
             onClick={() => calcular('*')}
-            className=""
+            className="p-4 text-2xl font-bold bg-blue-500 text-white rounded-lg shadow-md transform hover:scale-105 active:scale-95"
           >
             ×
           </button>
           <button
             onClick={() => calcular('/')}
-            className=""
+            className="p-4 text-2xl font-bold bg-blue-500 text-white rounded-lg shadow-md transform hover:scale-105 active:scale-95"
           >
             ÷
           </button>
