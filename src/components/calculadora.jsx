@@ -54,7 +54,23 @@ const App = () => {
       <div className="bg-gray-800 text-white p-6 rounded-xl shadow-xl w-full max-w-xs mx-auto">
         <h2 className="text-3xl font-bold text-center mb-6">Calculadora</h2>
 
-    </div>
-    </div>
-  )
+        <div className="flex flex-col gap-4 mb-6 sm:flex-row">
+          <input
+            type="number"
+            value={num1}
+            onChange={(e) => setNum1(e.target.value)}
+            placeholder="Número 1"
+            className="w-full p-4 text-xl rounded-lg border-2 border-gray-600 bg-gray-700 text-white shadow-inner focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <input
+            type="number"
+            value={num2}
+            onChange={(e) => setNum2(e.target.value)}
+            placeholder="Número 2"
+            className="w-full p-4 text-xl rounded-lg border-2 border-gray-600 bg-gray-700 text-white shadow-inner focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />         
+        </div>
 
+        
+      </div>
+    </div>
