@@ -107,5 +107,15 @@ const App = () => {
           </div>
         </div>
 
+       <button
+          onClick={clearFields}
+          className="w-full p-4 text-2xl font-bold bg-red-500 text-white rounded-lg shadow-md transform hover:scale-105 active:scale-95"
+        >
+          Limpar
+        </button>
       </div>
     </div>
+  );
+};
+
+export default App;
