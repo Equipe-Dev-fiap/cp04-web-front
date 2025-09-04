@@ -98,11 +98,11 @@ const App = () => {
           </button>
         </div>
 
-        <div className="">
-          <div className="">
+        <div className="bg-gray-700 rounded-lg mb-4 border-2 border-gray-600 p-4 h-32">
+          <div className="text-lg text-gray-400 font-light truncate">
             Resultado:
           </div>
-          <div className="">
+          <div className="text-3xl text-white font-semibold mt-2">
             {resultado}
           </div>
         </div>
