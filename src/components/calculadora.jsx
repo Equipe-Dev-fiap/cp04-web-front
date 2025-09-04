@@ -5,7 +5,6 @@ const App = () => {
   const [num1, setNum1] = useState('');
   const [num2, setNum2] = useState('');
   const [resultado, setResultado] = useState('');
-  }
 
   // Função para lidar com o cálculo
   const calcular = (operacao) => {
@@ -42,7 +41,7 @@ const App = () => {
     setResultado(calculo);
   };
 
-   // Função para limpar todos os campos
+  // Função para limpar todos os campos
   const clearFields = () => {
     setNum1('');
     setNum2('');
@@ -68,10 +67,10 @@ const App = () => {
             onChange={(e) => setNum2(e.target.value)}
             placeholder="Número 2"
             className="w-full p-4 text-xl rounded-lg border-2 border-gray-600 bg-gray-700 text-white shadow-inner focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />         
+          />
         </div>
 
-         <div className="grid grid-cols-4 gap-3 mb-6">
+        <div className="grid grid-cols-4 gap-3 mb-6">
           <button
             onClick={() => calcular('+')}
             className="p-4 text-2xl font-bold bg-blue-500 text-white rounded-lg shadow-md transform hover:scale-105 active:scale-95"
@@ -107,7 +106,7 @@ const App = () => {
           </div>
         </div>
 
-       <button
+        <button
           onClick={clearFields}
           className="w-full p-4 text-2xl font-bold bg-red-500 text-white rounded-lg shadow-md transform hover:scale-105 active:scale-95"
         >
