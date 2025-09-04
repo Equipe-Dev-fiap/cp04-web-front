@@ -97,5 +97,15 @@ const App = () => {
             ÷
           </button>
         </div>
+
+        <div className="">
+          <div className="">
+            Resultado:
+          </div>
+          <div className="">
+            {resultado}
+          </div>
+        </div>
+
       </div>
     </div>
