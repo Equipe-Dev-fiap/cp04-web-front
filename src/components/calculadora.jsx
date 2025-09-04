@@ -71,6 +71,31 @@ const App = () => {
           />         
         </div>
 
-        
+         <div className="">
+          <button
+            onClick={() => calcular('+')}
+            className=""
+          >
+            +
+          </button>
+          <button
+            onClick={() => calcular('-')}
+            className=""
+          >
+            -
+          </button>
+          <button
+            onClick={() => calcular('*')}
+            className=""
+          >
+            ×
+          </button>
+          <button
+            onClick={() => calcular('/')}
+            className=""
+          >
+            ÷
+          </button>
+        </div>
       </div>
     </div>
