@@ -41,3 +41,20 @@ const App = () => {
     }
     setResultado(calculo);
   };
+
+   // Função para limpar todos os campos
+  const clearFields = () => {
+    setNum1('');
+    setNum2('');
+    setResultado('');
+  };
+
+  return (
+    <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
+      <div className="bg-gray-800 text-white p-6 rounded-xl shadow-xl w-full max-w-xs mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-6">Calculadora</h2>
+
+    </div>
+    </div>
+  )
+
